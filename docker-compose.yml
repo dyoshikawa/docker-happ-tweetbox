@@ -1,0 +1,10 @@
+version: '3'
+services:
+  hyperapp:
+    build:
+      context: ./hyperapp
+    container_name: hyperapp
+    volumes:
+      - ./volumes/hyperapp.var-www-happ:/var/www/happ
+    ports:
+      - "8000:80"

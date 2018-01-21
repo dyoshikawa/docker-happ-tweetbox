@@ -1,0 +1,17 @@
+{
+  "name": "happ",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest",
+    "build-js": "./node_modules/.bin/webpack -p",
+    "watch-js": "./node_modules/.bin/webpack --watch",
+    "build-sass": "node-sass --include-path scss ./src/scss/style.scss ./dist/style.css --output-style compressed",
+    "watch-sass": "node-sass --include-path scss ./src/scss/style.scss ./dist/style.css -w",
+    "build": "npm run build-js && npm run build-sass"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
