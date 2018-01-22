@@ -1,2 +1,4 @@
 .idea
 volumes/hyperapp.var-www-happ/node_modules/
+volumes/hyperapp.var-www-happ/dist/bundle.js
+volumes/hyperapp.var-www-happ/dist/style.css
